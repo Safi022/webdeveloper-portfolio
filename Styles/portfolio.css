@@ -128,9 +128,49 @@ main section{
 }
 .resume-column-title{
     color: var(--dark-02, #474747);
-font-family: Open Sans;
+/* font-family: Open Sans; */
 font-size: 30px;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 700;
-line-height: normal;
+/* line-height: normal; */
+}
+.rc{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description{
+    color: var(--dark-03, #757575);
+/* font-family: Open Sans; */
+font-size: 16px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: 28px; 175% */
+}
+.resume-item-institute{
+    color: var(--dark-03, #757575);
+/* font-family: Open Sans; */
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal; */
+}
+.resume-item-title{
+    color: var(--dark-02, #474747);
+/* font-family: Open Sans; */
+font-size: 25px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: normal; */
+margin-bottom: 10px;
+}
+.rc hr{
+    margin: 30px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.down-cv{
+    text-align: center;
+    margin-top: 50px;
 }
